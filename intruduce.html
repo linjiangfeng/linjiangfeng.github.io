@@ -1,0 +1,142 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>个人简介</title>
+<!-- Bootstrap -->
+<link href="css/bootstra.min.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstra.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+ <!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+     <script src="https://oss.maxcdn.com/libs/respond.web/js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link href='http://fonts.useso.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'>
+<link href="css/styl.css" rel="stylesheet" type="text/css" media="all" />
+<!-- start plugins -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+<!----font-Awesome----->
+   	<link rel="stylesheet" href="fonts/web/css/font-awesome.min.css">
+<!----font-Awesome----->
+</head>
+<body>
+<div class="header_bg" id="home"><!-- start header -->
+<div class="container">
+	<div class="row header text-center specials">
+		<div class="h_logo">
+			<a href="index.html"><img src="img/logo.png" alt="" class="responsive"/></a>
+		</div>
+		<nav class="top-nav">
+			<ul class="top-nav nav_list">
+				<li><a href="portfolio.html">个人</a></li>
+				<li class="page-scroll"><a href="index.html"> </a></li>
+				<li class="logo page-scroll"><a title="hexa" href="index.html"><img src="img/logo.png" alt="" class="responsive"/></a></li>
+			    <li class="page-scroll"><a href="blog.html"> </a></li>
+				<li class="page-scroll"><a href="#contact">简介</a></li>
+			</ul>
+			<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+		</nav>
+		<div class="clearfix"></div>
+	</div>
+</div>
+</div>
+<div class="blog"><!-- start main -->
+	<div class="container">
+		<div class="main row">
+			<div class="col-md-8 blog_left">
+				<h2 class="style">个人简介</h2>
+				<div class="blog_main">
+					<a href="single-page.html"><img src="img/blog_pic1.jpg" alt="" class="blog_img img-responsive"/></a>
+					<h4><a href="single-page.html">姓名：林江峰 </a></h4>
+						<div class="blog_list pull-left">
+							  <ul class="list-unstyled">
+								<li><i class="fa fa-calendar-o"></i><span>1998，7.9</span></li>
+								<li><a href="#"><i class="fa fa-comment"></i><span>巨蟹座</span></a></li>
+						  		<li><i class="fa fa-user"></i><span>B型血</span></li>
+						  		<li><a href="#"><i class="fa fa-eye"></i><span>泉州南安</span></a></li>
+							  </ul>
+						</div>
+					<div class="b_left pull-right">
+						<a href=""><i class="fa fa-heart"></i><span> 28</span></a>
+					</div>
+					<div class="clearfix"></div>
+					<p class="para">
+						爱好：看书，旅游，下棋，玩游戏，羽毛球，篮球。
+					</p>
+					<p>
+						喜欢的食物：好吃的。
+					</p>>
+					<p>
+						喜欢的饮料：纯净水
+					</p>
+					<p>
+						性格：反射弧超级超级长，非常非常健忘。
+					</p>
+					<p>
+						学历：看老师给的分数
+					</p>
+					<div class="read_more btm">
+						<a href="single-page.html">详情</a>
+					</div>
+				</div>
+				<div class="blog_main">
+					<iframe src="//player.vimeo.com/video/25541923?color=c9161f" width="100%" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					
+						
+					<div class="b_left pull-right">
+						<a href=""><i class="fa fa-heart"></i><span>357</span></a>
+					</div>
+					<div class="clearfix"></div>
+					
+					
+				</div>
+			</div>
+			<div class="col-md-4 blog_right">
+				<ul class="ads_nav list-unstyled">
+					<h4>个人头像 125 x 125</h4>
+						<li><a href="#"><img src="img/ads_pic.jpg" alt=""> </a></li>
+						<li><a href="#"><img src="img/ads_pic.jpg" alt=""> </a></li>
+						<li><a href="#"><img src="img/ads_pic.jpg" alt=""> </a></li>
+						<li><a href="#"><img src="img/ads_pic.jpg" alt=""> </a></li>
+					<div class="clearfix"></div>
+				</ul>
+				<ul class="tag_nav list-unstyled">
+					<h4>个人标签</h4>
+						<li class="active"><a href="#">男孩子</a></li>
+						<li><a href="#">逗比</a></li>
+						<li><a href="#">能吃</a></li>
+						<li><a href="#">会玩</a></li>
+						<li><a href="#">影视迷</a></li>
+						<li><a href="#">音乐</a></li>
+						<li><a href="#">书迷</a></li>
+						<li><a href="#">乐观</a></li>
+						<li><a href="#">好相处</a></li>
+						<li><a href="#">还好</a></li>
+						<li><a href="#/">有想法</a></li>
+						<div class="clearfix"></div>
+				</ul>
+				<!-- start social_network_likes -->
+					
+		<!---- start-smoth-scrolling---->		
+	</div>
+</div>
+</body>
+</html>
